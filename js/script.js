@@ -10,9 +10,7 @@ Button.prototype = {
             alert(self.text);
         });
 
-//        this.element.addEventListener('click', () => {
-//            alert(this.text);
-//        });
+//        this.element.addEventListener('click', () => alert(this.text));
 
         document.body.appendChild(this.element);
     }
